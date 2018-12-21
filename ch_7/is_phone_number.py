@@ -2,6 +2,9 @@ def is_phone_number(text):
   if len(text) != 12:
     return False
   
+  if not text[:3].isalpha():
+    return False
+  
   return True
 
 
