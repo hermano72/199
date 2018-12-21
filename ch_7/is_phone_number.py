@@ -1,6 +1,5 @@
 
 # 555-822-5959
-#1545665
 
 def is_phone_number(text):
   if len(text) != 12:
